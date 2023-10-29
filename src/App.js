@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from '@mui/material/Button';
 
 function App() {
   return (
     <div className="App">
+      <Button variant="contained">Hello world</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
